@@ -1,0 +1,32 @@
+{
+    "event-app": 
+      {
+        "title": "Example Project 1",
+        "frontendFramework": "React",
+        "backendLanguage": "Node.js",
+        "summary": "This is an example project 1",
+        "imagePaths": [
+          "https://via.placeholder.com/300",
+          "https://via.placeholder.com/300",
+          "https://via.placeholder.com/300"
+        ],
+        "githubUrl": "https://github.com/example/example1",
+        "deployedUrl": "https://example1.com"
+      },
+      
+      "food-ordering-system":
+      {
+        "name": "food-ordering-system",
+        "title": "Example Project 2",
+        "frontendFramework": "Vue.js",
+        "backendLanguage": "Ruby",
+        "summary": "This is an example project 2",
+        "imagePaths": [
+          "/images/cat3.png",
+          "/images/cat3.png"
+        ],
+        "githubUrl": "https://github.com/example/example2",
+        "deployedUrl": "https://example2.com"
+      }
+  }
+  
