@@ -20,7 +20,7 @@
         "backendLanguage": "Serverless Stack (SST)",
         "summary": "This application is designed to manage pickup orders from a restaurant. First, users have the option to register on the application. In this case, they can customize and place orders for sandwiches. As an additional feature, users can save their favorite sandwiches to easily reorder them. On the admin side, there are functionalities for order aggregation and other analytics. On the technical side, the backend is developed using C#, and Razor View is utilized to display database information. jQuery is used to manipulate and update order details.",
         "imagePaths": [
-          "/images/PICK-AND-GO.png"
+          "/images/pick-and-go.png"
         ],
         "githubUrl": "https://github.com/yukobcit/Pick-And-Go",
         "deployedUrl": "https://example2.com"
