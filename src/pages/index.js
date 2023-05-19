@@ -119,7 +119,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <Link href="/projects/food-ordering-app">
                   <Image
-                    src="/images/PICK-AND-GO.png"
+                    src="/images/pick-and-go.png"
                     alt="pick-and-go-logo"
                     width={200}
                     height={200} />
