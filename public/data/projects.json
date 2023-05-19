@@ -1,31 +1,41 @@
 {
     "event-app": 
       {
-        "title": "Example Project 1",
-        "frontendFramework": "React",
-        "backendLanguage": "Node.js",
-        "summary": "This is an example project 1",
+        "title": "Event App",
+        "frontendFramework": "HTML",
+        "backendLanguage": "C#",
+        "summary":"This application is a comprehensive event management system that allows users to register events and manage the attendance of participants. First, users register themselves on the app, and administrators set tiers for users based on their preferences. Once the tier is applied to the users, they can browse events and register for the events they wish to attend. This application includes features such as managing waiting lists and issuing QR codes for events. On the technical side, React Native is used as the frontend framework, and Serverless Stack (sst) is used as the backend. Account management is implemented using Cognito, and an authentication system based on JWT tokens is employed.",
         "imagePaths": [
-          "https://via.placeholder.com/300",
-          "https://via.placeholder.com/300",
-          "https://via.placeholder.com/300"
+          "/images/event-app.png"
         ],
-        "githubUrl": "https://github.com/example/example1",
-        "deployedUrl": "https://example1.com"
+        "githubUrl": "https://github.com/yukobcit/Event-App",
+        "deployedUrl": "#"
       },
       
-      "food-ordering-system":
+      "food-ordering-app":
       {
-        "name": "food-ordering-system",
+        "name": "Foood Ordering App",
         "title": "Example Project 2",
-        "frontendFramework": "Vue.js",
-        "backendLanguage": "Ruby",
+        "frontendFramework": "React Native",
+        "backendLanguage": "Serverless Stack (SST)",
+        "summary": "This application is designed to manage pickup orders from a restaurant. First, users have the option to register on the application. In this case, they can customize and place orders for sandwiches. As an additional feature, users can save their favorite sandwiches to easily reorder them. On the admin side, there are functionalities for order aggregation and other analytics. On the technical side, the backend is developed using C#, and Razor View is utilized to display database information. jQuery is used to manipulate and update order details.",
+        "imagePaths": [
+          "/images/PICK-AND-GO.png"
+        ],
+        "githubUrl": "https://github.com/yukobcit/Pick-And-Go",
+        "deployedUrl": "https://example2.com"
+      },
+      "game-journal-app":
+      {
+        "name": "Game Journal App",
+        "title": "Example Project 2",
+        "frontendFramework": "React",
+        "backendLanguage": "Serverless Stack (SST)",
         "summary": "This is an example project 2",
         "imagePaths": [
-          "/images/cat3.png",
-          "/images/cat3.png"
+          "/images/game-journal-app.png"
         ],
-        "githubUrl": "https://github.com/example/example2",
+        "githubUrl": "https://github.com/yukobcit/game-journey",
         "deployedUrl": "https://example2.com"
       }
   }

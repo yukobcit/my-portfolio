@@ -3,6 +3,7 @@ import projectsData from '../../../public/data/projects.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import 'swiper/swiper-bundle.css';
+import Image from "next/image";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -18,7 +19,9 @@ function Project() {
     <div>
       {project && (
         <div>
-          <Swiper
+          <div>
+            <h1 className='text-3xl'>Project {project.title}</h1>
+            <Swiper
             navigation
             pagination
             autoplay={{ delay: 4000 }}
@@ -27,13 +30,12 @@ function Project() {
           >
             {project.imagePaths.map((image, index) => (
               <SwiperSlide key={index}>
-                <img src={image} />
+                <Image src={image} width={400} height={600} alt={project.title}></Image>
               </SwiperSlide>
             ))}
           </Swiper>
-
-          <div>
-            <h1>Project {project.title}</h1>
+            
+            <p>{project.summary}</p>
           </div>
         </div>
       )}

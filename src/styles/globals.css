@@ -14,10 +14,6 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-  body{
-    margin:0;
-    padding:0;
-  }
 }
 
 @font-face {
@@ -26,16 +22,29 @@
 }
 
 body {
-  /* background-image: url('/images/cool-background.png'); */
-  color: rgb(var(--foreground-rgb));
+  background-image: url('/images/background.jpg'); 
+  background-size: cover; 
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 .custom-font{
   font-family: 'Joystix Monospace', sans-serif;
+}
+
+.about{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.skills{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.projects{
+  background-color: rgba(255, 255, 255, 0.5); 
 }
