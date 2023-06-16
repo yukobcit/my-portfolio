@@ -5,8 +5,13 @@
         "frontendFramework": "HTML",
         "backendLanguage": "C#",
         "summary":"This application is a comprehensive event management system that allows users to register events and manage the attendance of participants. First, users register themselves on the app, and administrators set tiers for users based on their preferences. Once the tier is applied to the users, they can browse events and register for the events they wish to attend. This application includes features such as managing waiting lists and issuing QR codes for events. On the technical side, React Native is used as the frontend framework, and Serverless Stack (sst) is used as the backend. Account management is implemented using Cognito, and an authentication system based on JWT tokens is employed.",
+        "thumbnail": "/images/event-app.png",
         "imagePaths": [
-          "/images/event-app.png"
+          "/images/event-app/signin.png",
+          "/images/event-app/eventsupcoming.png",
+          "/images/event-app/createevent.png",
+          "/images/event-app/calendar.png",
+          "/images/event-app/qrcode.png"
         ],
         "githubUrl": "https://github.com/yukobcit/Event-App",
         "deployedUrl": "#"
