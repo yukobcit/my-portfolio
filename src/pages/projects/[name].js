@@ -21,15 +21,15 @@ function Project() {
     <div className="wrapper ">
       <Header />
       {project && (
-        <div className="container flex flex-wrap">
+        <div className="container flex flex-wrap ">
           <div className='w-full'>
             <h1 className='text-3xl custom-font lg:text-5xl text-center mb-20'>{project.title}</h1>
           </div>
         </div>
       )}
-      <div className='container flex flex-wrap w-5/6 md:mx-auto'>
+      <div className='flex flex-wrap w-5/6 mx-auto'>
         {project && (
-          <div className='w-full ml-10 mr-10 md:w-1/2 mb-10'>
+          <div className='w-full md:w-1/2 mb-10'>
             <Swiper
               navigation
               pagination
@@ -49,8 +49,8 @@ function Project() {
           </div>
         )}
         {project && (
-          <div className='w-full md:w-2/5'>
-            <div className='description p-10'>
+          <div className='w-full md:w-2/5 text-center mx-auto'>
+            <div className='description p-10 '>
               <p>{project.summary}</p>
               <a href={project.githubUrl}>
                     <FaGithub size={32} className="mt-5" />
