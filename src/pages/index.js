@@ -12,17 +12,16 @@ export default function Home() {
   return (
     <div className="wrapper">
       <Header />
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between md:p-24 ${inter.className} p-0`}
-    >
-        <h1 className="custom-font lg:text-5xl text-center mb-20">
-          Welcome to my portfolio!
-        </h1>
-        <div className="about mb-20 w-9/12">
+      <main className="flex min-h-screen flex-col items-center justify-center">
+  <div className="w-4/6">
+    <h1 className="custom-font lg:text-5xl text-center mb-20">
+      Welcome to my portfolio!
+    </h1>
+        <div className="about mb-20">
           <h3 className="intro"></h3>
           <div className="custom-font lg:text-3xl text-center mb-5">About Me</div>
-          <div className="flex flex-wrap justify-center md:justify-start text-center">
-            <p className="bio w-7/12 mx-4 mb-4 text-left">
+          <div className="flex flex-wrap justify-center  md:justify-start text-center">
+            <p className="bio  w-7/12 mx-4 mb-4 text-left md:mx-auto">
               I recently graduated from BCIT's Software Systems Developer program
               and I am a{" "}
               <span className="text-orange-400">full-stack developer</span>. In
@@ -63,8 +62,8 @@ export default function Home() {
           <div className="skills-title custom-font lg:text-3xl text-center mb-10">
             Skills
           </div>
-          <div className="flex flex-wrap justify-center md:justify-start text-center">
-            <div className="skill-card mx-5">
+          <div className="flex flex-wrap justify-center md:justify-start text-center mr-20">
+            <div className="skill-card md:mx-auto">
               <Image
                 src="/images/html-logo.png"
                 width={250}
@@ -115,7 +114,7 @@ export default function Home() {
             Projects
           </div>
           <div className="flex flex-wrap justify-center md:justify-start text-center">
-            <div className="project-card w-72 mx-4 mb-4">
+            <div className="project-card w-72 mb-4 md:mx-auto">
               <div className="flex justify-center">
                 <Link href="/projects/food-ordering-app">
                   <Image
@@ -165,6 +164,7 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </main>
       <Footer />
