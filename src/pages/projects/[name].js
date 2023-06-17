@@ -6,7 +6,7 @@ import 'swiper/swiper-bundle.css';
 import Image from "next/image";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import {FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -21,9 +21,13 @@ function Project() {
     <div className="wrapper ">
       <Header />
       {project && (
-        <div className="container flex flex-wrap ">
-          <div className='w-full text-center'>
-            <h1 className='text-3xl custom-font lg:text-5xl text-center mb-20'>{project.title}</h1>
+        <div className="flex justify-center">
+          <div className="container">
+            <div className="flex flex-wrap">
+              <div className="w-full">
+                <h1 className="text-3xl custom-font lg:text-5xl text-center mb-20">{project.title}</h1>
+              </div>
+            </div>
           </div>
         </div>
       )}
@@ -53,7 +57,7 @@ function Project() {
             <div className='description p-10 '>
               <p>{project.summary}</p>
               <a href={project.githubUrl}>
-                    <FaGithub size={32} className="mt-5" />
+                <FaGithub size={32} className="mt-5" />
               </a>
             </div>
           </div>
@@ -62,8 +66,8 @@ function Project() {
       <Footer />
     </div>
   );
-  
-  
+
+
 }
 
 
