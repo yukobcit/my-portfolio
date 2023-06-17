@@ -22,7 +22,7 @@ function Project() {
       <Header />
       {project && (
         <div className="container flex flex-wrap ">
-          <div className='w-full'>
+          <div className='w-full text-center'>
             <h1 className='text-3xl custom-font lg:text-5xl text-center mb-20'>{project.title}</h1>
           </div>
         </div>
