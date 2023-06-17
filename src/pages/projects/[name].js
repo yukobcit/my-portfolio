@@ -23,9 +23,9 @@ function Project() {
         {project && (
           <div>
             <div>
-              <h1 className='text-3xl custom-font lg:text-5xl text-center mb-20'>{project.title}</h1>
+              <h1 className='text-3xl custom-font lg:text-5xl text-center mb-10'>{project.title}</h1>
 
-              <div className='mb-20'>
+              <div className='mb-10'>
                 <Swiper
                   navigation
                   pagination
