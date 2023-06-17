@@ -21,7 +21,7 @@ export default function Home() {
             <h3 className="intro"></h3>
             <div className="custom-font lg:text-3xl text-center mb-5">About Me</div>
             <div className="flex flex-wrap justify-center  md:justify-start text-center">
-              <p className="bio  w-7/12 mx-4 mb-4 text-left md:mx-auto">
+              <p className="bio  w-7/12 mx-4 mb-4 text-left md:mx-auto mt-10">
                 I recently graduated from BCIT's Software Systems Developer program
                 and I am a{" "}
                 <span className="text-orange-400">full-stack web developer</span>. In
@@ -71,7 +71,7 @@ export default function Home() {
                   alt="html-logo-img"
                 ></Image>
               </div>
-              <div className="skill-card mx-5">
+              <div className="skill-card md:mx-auto mb-4">
                 <Image
                   src="/images/skills-icons/github-mark.png"
                   width={100}
@@ -80,7 +80,7 @@ export default function Home() {
                 ></Image>
                 <p className="slill-name"></p>
               </div>
-              <div className="skill-card mx-5">
+              <div className="skill-card md:mx-auto mb-4">
                 <Image
                   src="/images/skills-icons/react.png"
                   width={100}
@@ -89,7 +89,7 @@ export default function Home() {
                 ></Image>
                 <p className="slill-name"></p>
               </div>
-              <div className="skill-card mx-5">
+              <div className="skill-card md:mx-auto mb-4">
                 <Image
                   src="/images/skills-icons/c-sharp.png"
                   width={100}
@@ -98,7 +98,7 @@ export default function Home() {
                 ></Image>
                 <p className="slill-name"></p>
               </div>
-              <div className="skill-card mx-5">
+              <div className="skill-card md:mx-auto mb-4">
                 <Image
                   src="/images/skills-icons/aws.png"
                   width={100}
