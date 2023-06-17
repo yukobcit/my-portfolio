@@ -36,7 +36,7 @@ function Project() {
                   {project.imagePaths.map((image, index) => (
                     <SwiperSlide key={index}>
                       <div className='flex items-center justify-center'>
-                        <Image src={image} width={500} height={650} alt={image} />
+                        <Image src={image} width={400} height={400} alt={image} />
                       </div>
                     </SwiperSlide>
                   ))}

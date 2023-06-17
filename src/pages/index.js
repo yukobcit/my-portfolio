@@ -119,7 +119,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <Link href="/projects/food-ordering-app">
                   <Image
-                    src="/images/pick-and-go.png"
+                    src="/images/pickandgologo.png"
                     alt="pick-and-go-logo"
                     width={200}
                     height={200} />
@@ -153,7 +153,7 @@ export default function Home() {
                 <Link href="/projects/game-journal-app">
 
                   <Image
-                    src="/images/gamejourney.png"
+                    src="/images/gamejourneylogo.png"
                     alt="game-journey-logo"
                     width={200}
                     height={200} />

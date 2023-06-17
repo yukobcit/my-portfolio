@@ -30,8 +30,8 @@
           "/images/food-ordering-app/home.png",
           "/images/food-ordering-app/selectmenu.png",
           "/images/food-ordering-app/ordercustomize.png",
-          "/images/food-ordering-app/paypal.png",
-          "/images/food-ordering-app/admin.png"
+          "/images/food-ordering-app/shoppingcart.png",
+          "/images/food-ordering-app/paypal.png"
         ],
         "githubUrl": "https://github.com/yukobcit/Pick-And-Go",
         "deployedUrl": "#"
