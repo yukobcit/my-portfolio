@@ -39,15 +39,15 @@
       "game-journal-app":
       {
         "name": "Game Journal App",
-        "title": "Example Project 2",
+        "title": "Game Journal App",
         "frontendFramework": "React",
         "backendLanguage": "Serverless Stack (SST)",
-        "summary": "This is an example project 2",
+        "summary": "This application allows you to record the progress of your video game journey",
         "imagePaths": [
-          "/images/game-journal-app.png"
+          "/images/300x400.png"
         ],
         "githubUrl": "https://github.com/yukobcit/game-journey",
-        "deployedUrl": "https://example2.com"
+        "deployedUrl": "#"
       }
   }
   

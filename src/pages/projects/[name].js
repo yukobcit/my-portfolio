@@ -6,6 +6,7 @@ import 'swiper/swiper-bundle.css';
 import Image from "next/image";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import {FaGithub } from "react-icons/fa";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -51,6 +52,9 @@ function Project() {
           <div className='w-full md:w-2/5'>
             <div className='description p-10'>
               <p>{project.summary}</p>
+              <a href={project.githubUrl}>
+                    <FaGithub size={32} className="mt-5" />
+              </a>
             </div>
           </div>
         )}
