@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="custom-font lg:text-5xl text-center mb-20">
           Welcome to my portfolio!
         </h1>
-        <div className="about mb-20">
+        <div className="about mb-20 w-9/12">
           <h3 className="intro"></h3>
           <div className="custom-font lg:text-3xl text-center mb-5">About Me</div>
           <div className="flex flex-wrap justify-center md:justify-start text-center">
@@ -153,8 +153,8 @@ export default function Home() {
                 <Link href="/projects/game-journal-app">
 
                   <Image
-                    src="/images/TEE-TIME.png"
-                    alt="tee-time-logo"
+                    src="/images/gamejourney.png"
+                    alt="game-journey-logo"
                     width={200}
                     height={200} />
                 </Link>
