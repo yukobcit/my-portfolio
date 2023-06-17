@@ -17,7 +17,7 @@ function Project() {
 
   console.log(project);
   return (
-    <div className="wrapper">
+    <div className="wrapper ">
       <Header />
       {project && (
         <div className="container flex flex-wrap">
@@ -26,7 +26,7 @@ function Project() {
           </div>
         </div>
       )}
-      <div className='container flex flex-wrap'>
+      <div className='container flex flex-wrap w-5/6 md:mx-auto'>
         {project && (
           <div className='w-full ml-10 mr-10 md:w-1/2 mb-10'>
             <Swiper

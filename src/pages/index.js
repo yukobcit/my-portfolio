@@ -37,7 +37,7 @@ export default function Home() {
               skills and knowledge. Currently, I am independently learning Unity
               for fun.{" "}
             </p>
-            <div className=" w-4/12 flex flex-col items-center mt-4">
+            <div className=" w-4/12 flex flex-col items-center mt-4 mb-4">
               <Image
                 src="/images/yuko.jpg"
                 width={180}
@@ -63,7 +63,7 @@ export default function Home() {
             Skills
           </div>
           <div className="flex flex-wrap justify-center md:justify-start text-center mr-20">
-            <div className="skill-card md:mx-auto">
+            <div className="skill-card md:mx-auto mb-4">
               <Image
                 src="/images/html-logo.png"
                 width={250}
