@@ -52,3 +52,9 @@ body {
 .description{
   background-color: rgba(255, 255, 255, 0.7);
 }
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  color: rgba(6, 97, 6, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+}

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="py-4">
+    <header className="py-4 mb-10">
       <nav className="container mx-auto flex justify-center">
         <ul className="flex justify-between items-center w-5/6">
           <li className="text-right">
