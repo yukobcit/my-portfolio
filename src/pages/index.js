@@ -39,7 +39,7 @@ export default function Home() {
               </p>
               <div className=" w-4/12 flex flex-col items-center mt-4 mb-4">
                 <Image
-                  src="/images/yuko.jpg"
+                  src="/images/yuko_ishida_450.jpg"
                   width={180}
                   height={180}
                   alt="yuko-img" />
