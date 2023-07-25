@@ -7,6 +7,7 @@ import Image from "next/image";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { FaGithub } from "react-icons/fa";
+import Head from 'next/head';
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -18,53 +19,56 @@ function Project() {
 
   console.log(project);
   return (
+    <><Head>
+      <title> {project.title} </title>
+    </Head>
     <div className="wrapper ">
-      <Header />
-      {project && (
-        <div className="flex justify-center">
-          <div className="container">
-            <div className="flex flex-wrap">
-              <div className="w-full">
-                <h1 className="text-3xl custom-font lg:text-5xl text-center mb-20">{project.title}</h1>
+        <Header />
+        {project && (
+          <div className="flex justify-center">
+            <div className="container">
+              <div className="flex flex-wrap">
+                <div className="w-full">
+                  <h1 className="text-3xl custom-font lg:text-5xl text-center mb-20">{project.title}</h1>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
-      <div className='flex flex-wrap w-5/6 mx-auto'>
-        {project && (
-          <div className='w-full md:w-1/2 mb-10'>
-            <Swiper
-              navigation
-              pagination
-              autoplay={{ delay: 4000 }}
-              loop
-              spaceBetween={30}
-              className="w-full custom-swiper"
-            >
-              {project.imagePaths.map((image, index) => (
-                <SwiperSlide key={index}>
-                  <div className='flex items-center justify-center'>
-                    <Image src={image} width={400} height={400} alt={image} />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
         )}
-        {project && (
-          <div className='w-full md:w-2/5 text-center mx-auto'>
-            <div className='description p-10 '>
-              <p>{project.summary}</p>
-              <a href={project.githubUrl}>
-                <FaGithub size={32} className="mt-5" />
-              </a>
+        <div className='flex flex-wrap w-5/6 mx-auto'>
+          {project && (
+            <div className='w-full md:w-1/2 mb-10'>
+              <Swiper
+                navigation
+                pagination
+                autoplay={{ delay: 4000 }}
+                loop
+                spaceBetween={30}
+                className="w-full custom-swiper"
+              >
+                {project.imagePaths.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <div className='flex items-center justify-center'>
+                      <Image src={image} width={400} height={400} alt={image} />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
-          </div>
-        )}
-      </div>
-      <Footer />
-    </div>
+          )}
+          {project && (
+            <div className='w-full md:w-2/5 text-center mx-auto'>
+              <div className='description p-10 '>
+                <p>{project.summary}</p>
+                <a href={project.githubUrl}>
+                  <FaGithub size={32} className="mt-5" />
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
+        <Footer />
+      </div></>
   );
 
 
