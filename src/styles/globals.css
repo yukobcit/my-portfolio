@@ -37,19 +37,7 @@ body {
   font-family: 'Joystix Monospace', sans-serif;
 }
 
-.about{
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.skills{
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.projects{
-  background-color: rgba(255, 255, 255, 0.7); 
-}
-
-.description{
+.about, .skills, .projects, .description, .contact-form{
   background-color: rgba(255, 255, 255, 0.7);
 }
 
