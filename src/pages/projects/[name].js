@@ -20,7 +20,7 @@ function Project() {
   console.log(project);
   return (
     <><Head>
-      <title> {project.title} </title>
+      {project ? <title> {project.title} </title> : <title> Project not found </title>}
     </Head>
     <div className="wrapper ">
         <Header />
