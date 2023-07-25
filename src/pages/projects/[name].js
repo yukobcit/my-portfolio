@@ -70,8 +70,6 @@ function Project() {
         <Footer />
       </div></>
   );
-
-
 }
 
 
